@@ -17,6 +17,7 @@ header{
     /* margin: 10px; */
     flex: content;
     align-items: center;
+    justify-items: space-evenly;
     /* position: fixed; */
 }
 
@@ -24,6 +25,7 @@ nav{
     /* background-color: bisque; */
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 ul li {
@@ -39,7 +41,7 @@ ul li a{
 main p {
 font-size: 40px;
 font-style: italic;
-color: antiquewhite;
+color:#fcf7fb;
 margin-top: 250px;
 margin-left: 150px;
 position: absolute;
@@ -50,34 +52,35 @@ border-width: 2px;
 section{
     width: 100%;
     height: 600px;
-    margin: 5px; 
-    
+    /* margin: 5px;     
     border-color: black;
     border-width: 1px;
-    border-style: double;
+    border-style: double; */
 }
 
 #Inicio{
     background-color: aquamarine;
-    border-color: #170744;
     display: flex;
     justify-content: space-between;
 }
 
 .div-inicio{
     width: 33.33%;
-    height: 499px;
-    border: 1px solid;
-    /* overflow: hidden; */
+    /* height: 499px; */
+    height: auto;
+    /* border: 1px solid; */
+    overflow: hidden;
 }
 
 .div-inicio img{
     width: auto;
-    height: 500px;
+    height: 700px;
+    /* height: auto; */
 }
 
 .Servicios{
-    background-color: aqua;
+    background-color:aliceblue;
+    /* background-image:url("../Img/aeropuerto_1.jpg"); */
     display: flex;
     flex-direction: column;
     /* column-gap: normal; */
@@ -87,10 +90,14 @@ section{
 }
 
 .Servicios h2{
-   background-color: rgb(121, 6, 92);
-   color: aliceblue;
-   border-radius: 15px;
-   width: 150px;
+   /* background-color: rgb(121, 6, 92); */
+   /* background-color: aliceblue; */
+   font-size: 220%;   
+   font-style: italic;
+   color: rgb(121, 6, 92);
+   /* border-radius: 15px;
+   border-color: #170744;
+   width: 200px; */
    text-align: center;
 
 }
@@ -101,10 +108,11 @@ section{
     /* margin-bottom: 50px; */
     display: flex;
     justify-content: space-around;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 
 .cartaservi{
+    background-color: aliceblue;
     width: 300px;
     border: rgb(121, 6, 92) 5px double;
     border-radius: 20px;
@@ -132,20 +140,24 @@ font-size: 80%;
 }
 
 .Servicios a{
-    background-color: aliceblue;
-    width: 100px;
-    height: 5%;
-    margin-left: auto;
-    margin-right: auto;
+    /* background-color: aliceblue; */
+    background-color:rgb(121, 6, 92) ;
+    color: aliceblue;
+    width: 200px;
+    height: 7%; 
+    justify-items: center;
     border-radius: 10px;
-    align-content: center;
+    text-align: center;
     text-decoration: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .Servicios a:hover{
-    background-color: blueviolet;
-    font-weight:lighter;
-    font-style: oblique;
+    /* background-color: blueviolet; */
+    color:antiquewhite;
+    font-weight:bolder;
+    font-style: inherit;
 }
 
 .Marca{
@@ -257,7 +269,7 @@ font-size: 80%;
 
 
 h1{
-    color: rgb(197, 192, 192);
+    color:#fcf7fb;
     font-size: 110px;
     font-weight: bold;
     font-style: oblique;
