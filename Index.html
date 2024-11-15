@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traslados CABA</title>
+    <link rel="stylesheet" href="CCS/style _1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="Index.html"><img src="Img/Logo_E_Comerce_1.png" width="50" height="50" alt="Logo_computadora_1"></a>
+            <ul> 
+                <li><a href="Index.html">Inicio </a></li>
+                <li><a href="#Servicios">Servicios </a></li>
+                <li><a href="#Marcas">Marca</a></li>
+                <li><a href="Pages/Contactos.html">Contactos</a></li>
+                <li><a href="Pages/Formularios.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+     <main id="main">
+
+        <h1>Traslados BuenAire</h1>
+        <p >Seguridad y confort en todo momento</p>
+
+
+        <section id="Inicio">
+            <div class="div-inicio">
+                <img src="Img/imag_4.jpg" alt="imagen_1">
+                <p>
+
+                </p>
+            </div>
+            <div class="div-inicio">
+                <img src="Img/imag_2.jpg" alt="imagen_2">
+            </div>
+            <div class="div-inicio">
+                <img src="Img/imag_3.jpg" alt="imagen_3">
+            </div>
+        </section>
+    </main>
+        
+        <section class="Servicios">
+            <h2>  SERVICIOS</h2>
+            <div id="divservicios">
+                <div class="cartaservi">
+                    <img src="Img/Alumnos_En_Clases.png" alt="imag_5">
+                    <h3>Traslados Aerpuerto</h3>
+                    <p>Nuestros traslados al aeropuerto te aseguran llegar a tiempo y con total comodidad</p>
+                </div>
+                <div class="cartaservi">
+                    <img src="Img/imag_3.jpg" alt="imag_6">
+                    <h3>Servicio Personalizado</h3>
+                    <p>Opciones de reservas (online, telefónica, app), servicios adicionales que se adaptan a tus necesidades</p>
+                </div>
+                <div class="cartaservi">
+                    <img src="Img/imag_2.jpg" alt="imag_6">
+                    <h3>Tour CABA</h3>
+                    <p>Ofrecemos exclusivos servicios de tours por la ciudad.</p>
+                </div>
+            </div>
+            <a href="#Contacto" hover="">Contactanos</a>
+        </section>
+            
+
+        <section id = Marcas class="Marca">
+           
+            <div class="titulo_marca" >
+                <h2>MARCA</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, saepe assumenda. At quod voluptas facilis sint, ab iusto, necessitatibus odit minus quaerat amet voluptatum dignissimos animi nulla vitae pariatur doloribus.</p>  
+           </div>
+            
+           <div class="container">
+                <div class="item_1_grid">
+                    <h3>QUE NOS DIFERENCIA</h3>
+                    <p>Nos distinguimos por lo impecable de nuestros vehículos, la calidad superior de nuestro servicio, la puntualidad rigurosa y el compromiso inquebrantable con la seguridad.</p>
+                </div>
+                <div class="item_2_grid">
+                    <h3>Marca_2</h3>
+                    <p>Destinos</p>
+                </div>
+                <div class="item_3_grid">
+                    <p>1</p>
+                    <img src="Img/Alumnos_En_Clases.png" width="150" height="300" alt="Alumnos en Alumnos_En_Clases">
+                </div>
+                <div class="item_4_grid">
+                    <p>2</p>
+                    <!-- <video  width="450" height="250" src="Videos/Buenos_Aires_ Ciudad.mp4" title="Buenos Aires" controls >                        -->
+                </div>
+            </div>  
+         </section>
+
+        <section id="Contacto">
+            <h2>  CONTACTO</h2>
+            <div>
+            <form action="https://formspree.io/f/xvgoryry" method="post" class="container-form">
+       
+                    <div class="container-form-nombre">
+                        <label for="Nombre"> Nombre</label>
+                        <input type="text" id="" name="" maxlength="15" size="15">
+                    </div>
+                    <div class="container-form-apellido">
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" id="" size="15" maxlength="15">
+                    </div>
+                    <div class="container-form-documento">
+                        <label for="tipo_documento">Tipo_documento</label>
+                        <select name="Tipo_documento" id="documento">
+                            <option value="Documento Nacional">DNI</option>
+                             <option value="Pasaporte">Pasaporte</option>
+                        </select>
+                    </div>
+                    <div class="container-form-DNI">
+                        <label for="DNI">N° de Doumento</label>
+                        <input type="number" name="DNI" id="" required>
+                    </div>
+                    <div class="container-form-auto">
+                        <label for="tipo_auto">Tipo de auto requerido</label>
+                        <select name="" id="autos">
+                            <option value="Sedan">Sedan</option>
+                            <option value="Familiar">Familiar</option>
+                            <option value="Carga">Carga</option>
+                            <option value="multi_familiar" disabled> multi_familiar</option>
+                        </select>
+                    </div>
+                    <div class="container-form-email">
+                        <label for="Email">Email:</label>
+                        <input type="email" name="Email" id="">
+                    </div>
+                    <div class="container-form-Comentario">
+                        <label for="Comentarios">Escriba Comentarios</label><br>
+                        <textarea name="Comentarios" id="" cols="30" rows="10" placeholder="Escriba su comentario o preferencias (Max. 300 caracteres)"></textarea>
+                    </div>
+                    <div class="container-form-ex-residen">
+                        <div class="container-form-extras">
+                            <label for="Extras">Extras</label>
+                            <input type="checkbox" name="Mascotas" id="" value="1">Mascotas
+                            <input type="checkbox" name="Silla de Ruedas" id="" value="2">Silla de Ruedas
+                            <input type="checkbox" name="Articulo Deportivo" id="" value="3">Articulo Deportivo
+                        </div>
+                        <div class="container-form-residencia">  
+                            <label for="Residencia">Zona de Residencia</label>
+                            <input type="radio" name="Residencia" id="" value="1">CABA
+                            <input type="radio" name="Residencia" id="" value="2">Provincia
+                            <input type="radio" name="Residencia" id="" value="3">Gran Ba
+                        </div>
+                    </div>
+                    <div class="container-form-condiciones">
+                        <input type="checkbox" name="Condiciones" required>Acepto los terminos y Condiciones 
+                    </div>
+                    <div class="container-form-botones"> 
+                        <input type="submit" value="Enviar Datos" name="">
+                        <input type="reset" value="Reset" name=""> 
+                    </div>  
+            </form>
+        </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">          
+       <div class="footer-div">
+            <div class="footer-direccion">
+                Direccion de Contacto
+            </div>
+        
+            <div class="footer-redes-sociales">
+                <img src="Img/Facebook_Logo.png" width="40" height="40" alt="Logo de Facebook">
+                <img src="Img/Instagram_Logo.png" width="40" height="40" alt="Logo de Instagram">
+                <img src="Img/Twitter_Logo.png" width="40" height="40" alt="Logo de Twiter">
+            </div>
+        </div>
+        
+        <sub class="footer-direccion">@ derechos reservados Francisco F.</sub>        
+    </footer>
+</body>
+</html>
