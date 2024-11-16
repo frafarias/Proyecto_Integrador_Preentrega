@@ -93,31 +93,31 @@
             </div>  
          </section>
 
-        <section id="Contacto">
+        <section id="Contacto" class="Contactos">
             <h2>  CONTACTO</h2>
             <div>
             <form action="https://formspree.io/f/xvgoryry" method="post" class="container-form">
        
-                    <div class="container-form-nombre">
-                        <label for="Nombre"> Nombre</label>
+                    <div class="container-form-etiquetas">
+                        <label for="Nombre"> Nombre</label placeholder="Nombre">
                         <input type="text" id="" name="" maxlength="15" size="15">
                     </div>
-                    <div class="container-form-apellido">
+                    <div class="container-form-etiquetas">
                     <label for="Apellido">Apellido</label>
                     <input type="text" id="" size="15" maxlength="15">
                     </div>
-                    <div class="container-form-documento">
+                    <div class="container-form-etiquetas">
                         <label for="tipo_documento">Tipo_documento</label>
                         <select name="Tipo_documento" id="documento">
                             <option value="Documento Nacional">DNI</option>
                              <option value="Pasaporte">Pasaporte</option>
                         </select>
                     </div>
-                    <div class="container-form-DNI">
+                    <div class="container-form-etiquetas">
                         <label for="DNI">N° de Doumento</label>
                         <input type="number" name="DNI" id="" required>
                     </div>
-                    <div class="container-form-auto">
+                    <div class="container-form-etiquetas">
                         <label for="tipo_auto">Tipo de auto requerido</label>
                         <select name="" id="autos">
                             <option value="Sedan">Sedan</option>
@@ -126,22 +126,22 @@
                             <option value="multi_familiar" disabled> multi_familiar</option>
                         </select>
                     </div>
-                    <div class="container-form-email">
+                    <div class="container-form-etiquetas">
                         <label for="Email">Email:</label>
                         <input type="email" name="Email" id="">
                     </div>
                     <div class="container-form-Comentario">
                         <label for="Comentarios">Escriba Comentarios</label><br>
-                        <textarea name="Comentarios" id="" cols="30" rows="10" placeholder="Escriba su comentario o preferencias (Max. 300 caracteres)"></textarea>
+                        <textarea name="Comentarios" id="" cols="35" rows="10" placeholder="Escriba sus comentarios o preferencias"></textarea>
                     </div>
-                    <div class="container-form-ex-residen">
-                        <div class="container-form-extras">
+                    <div class="container-form-check-radio">
+                        <div>
                             <label for="Extras">Extras</label>
                             <input type="checkbox" name="Mascotas" id="" value="1">Mascotas
                             <input type="checkbox" name="Silla de Ruedas" id="" value="2">Silla de Ruedas
                             <input type="checkbox" name="Articulo Deportivo" id="" value="3">Articulo Deportivo
                         </div>
-                        <div class="container-form-residencia">  
+                        <div>  
                             <label for="Residencia">Zona de Residencia</label>
                             <input type="radio" name="Residencia" id="" value="1">CABA
                             <input type="radio" name="Residencia" id="" value="2">Provincia
@@ -149,7 +149,9 @@
                         </div>
                     </div>
                     <div class="container-form-condiciones">
-                        <input type="checkbox" name="Condiciones" required>Acepto los terminos y Condiciones 
+                        <label for="">Acepto los terminos y Condiciones</label>
+                        <input type="checkbox" name="Condiciones" required>
+                     
                     </div>
                     <div class="container-form-botones"> 
                         <input type="submit" value="Enviar Datos" name="">
@@ -163,8 +165,9 @@
 
     <footer class="footer">          
        <div class="footer-div">
-            <div class="footer-direccion">
-                Direccion de Contacto
+            <div>
+                <p>Direccion de contacto: Ciudad de Buenos Aires</p>
+                <p>Telefono (011) 2174.9813</p>
             </div>
         
             <div class="footer-redes-sociales">
@@ -174,7 +177,8 @@
             </div>
         </div>
         
-        <sub class="footer-direccion">@ derechos reservados Francisco F.</sub>        
+        
+        <p> <sub>@ derechos reservados Francisco F.</sub>  </p>      
     </footer>
 </body>
 </html>
