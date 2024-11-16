@@ -14,18 +14,20 @@ body{
 header{
     background-color: rgb(121, 6, 92);
     width: 100%;
-    /* margin: 10px; */
     flex: content;
     align-items: center;
     justify-items: space-evenly;
-    /* position: fixed; */
 }
 
 nav{
-    /* background-color: bisque; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+nav img{
+width: 55px;
+height: auto;
 }
 
 ul li {
@@ -62,38 +64,37 @@ section{
 
 .div-inicio{
     width: 33.33%;
-    /* height: 499px; */
     height: auto;
-    /* border: 1px solid; */
     overflow: hidden;
 }
 
 .div-inicio img{
     width: auto;
     height: 700px;
-    /* height: auto; */
+}
+
+h1{
+    color:#fcf7fb;
+    font-size: 110px;
+    font-weight: bold;
+    font-style: oblique;
+   position: absolute;
+   margin-top: 100px;
+   margin-left: 120px;
 }
 
 .Servicios{
     background-color:aliceblue;
-    /* background-image:url("../Img/aeropuerto_1.jpg"); */
     display: flex;
     flex-direction: column;
-    /* column-gap: normal; */
     align-items: center;
     justify-content:space-around;
-    /* text-align: center; */
 }
 
 .Servicios h2{
-   /* background-color: rgb(121, 6, 92); */
-   /* background-color: aliceblue; */
    font-size: 220%;
    font-style: italic;
    color: rgb(121, 6, 92);
-   /* border-radius: 15px;
-   border-color: #170744;
-   width: 200px; */
    text-align: center;
 
 }
@@ -101,10 +102,8 @@ section{
 #divservicios{
     width: 100%;
     height: 400px;
-    /* margin-bottom: 50px; */
     display: flex;
     justify-content: space-around;
-    /* background-color: aliceblue; */
 }
 
 .cartaservi{
@@ -112,7 +111,6 @@ section{
     width: 300px;
     border: rgb(121, 6, 92) 5px double;
     border-radius: 20px;
-    /* margin-bottom: 10px; */
     display: flex;
     flex-direction: column;
     justify-content:space-around;
@@ -136,7 +134,6 @@ font-size: 80%;
 }
 
 .Servicios a{
-    /* background-color: aliceblue; */
     background-color:rgb(121, 6, 92) ;
     color: aliceblue;
     width: 200px;
@@ -150,14 +147,12 @@ font-size: 80%;
 }
 
 .Servicios a:hover{
-    /* background-color: blueviolet; */
     color:antiquewhite;
     font-weight:bolder;
     font-style: inherit;
 }
 
 .Marca{
-    /* background-color: rgb(141, 145, 151); */
     background-image: url(../Img/aeropuerto_1.jpg);
     height: 800px;
     display: flex;
@@ -188,7 +183,6 @@ font-size: 80%;
 }
 
 .container{
-    /* background-color: blanchedalmond; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -375,13 +369,3 @@ div .container-form-botones input{
     justify-content: space-around;
 }
 
-
-h1{
-    color:#fcf7fb;
-    font-size: 110px;
-    font-weight: bold;
-    font-style: oblique;
-   position: absolute;
-   margin-top: 100px;
-   margin-left: 120px;
-}
