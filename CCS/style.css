@@ -38,6 +38,12 @@ ul li {
 
 ul li a{
     color: antiquewhite;
+    text-decoration-line: none;
+}
+
+ul li a:hover{
+    font-size: medium;
+    text-decoration-line:underline ;
 }
 
 main p {
@@ -368,4 +374,37 @@ div .container-form-botones input{
     display: flex;
     justify-content: space-around;
 }
+
+
+@media (max-width: 768px) {
+
+nav{
+    flex-direction: column;
+}
+
+ul{
+flex-direction: column;
+}
+
+.listas li a{
+color:aquamarine;
+font-size: small;
+text-decoration-line:underline;
+}
+
+.listas li a:hover{
+font-size: large;
+background-color: rgb(163, 8, 124);
+border-color: aquamarine;
+border-radius: 2px;
+padding: .5px;
+text-decoration-line:none;
+}
+
+
+
+
+
+}
+
 
