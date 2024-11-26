@@ -417,7 +417,6 @@ main p {
         height:max-content;
     }
     .container-form{
-        /* background-color: aquamarine; */
         display: flex;
         flex-direction: column;
         grid-template-columns: 1fr 1fr;
