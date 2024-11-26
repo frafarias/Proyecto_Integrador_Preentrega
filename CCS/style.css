@@ -404,6 +404,39 @@ text-decoration-line:none;
 
 
 
+main p {
+    font-size: 120%;
+    font-style: italic;
+    color:#fcf7fb;
+    margin-top: 270px;
+    margin-left: 150px;
+    position: absolute;
+    border-color: #170744;
+    border-width: 2px;
+    
+    }
+    /* section{
+        width: 100%;
+        height: 600px;
+    } */
+    
+    /* #Inicio{
+        background-color: aquamarine;
+        display: flex;
+        justify-content: space-between;
+    }     */
+  
+    h1{
+        color:#fcf7fb;
+        font-size: 300%;
+        font-weight: bold;
+        font-style: oblique;
+       position: absolute;
+       margin-top: 200px;
+       margin-left: 120px;
+    }
+
+
 
 }
 
