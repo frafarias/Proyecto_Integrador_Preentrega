@@ -22,9 +22,8 @@ let capturaMostrarRegistro=document.getElementById("mostrarRegistro")
 let capturaDivMostrarRegistro = document.getElementById("divMostrarRegistro")
 let capturaTituloRegistro = document.getElementById("tituloRegistro")
 
-
-
 //Imprimo los elementos para estar seguro
+
 // console.log(capturainputName)
 // console.log(capturainputApellido)
 // console.log(capturaLabelName)
@@ -52,6 +51,7 @@ console.log(capturaTituloRegistro.textContent)
 capturaBotonRegistro.addEventListener("click",registrar)
 
 capturaBotonReset2.addEventListener("click",researtRegistro)
+
 //Designo variables
 var nombreLocal 
 var apellidoLocal
@@ -100,6 +100,6 @@ function researtRegistro(){
     // capturaEmailRegistro[0].value = ""
 }
 
-localStorage.clear()
+// localStorage.clear()
 
 function mostrar() {console.log("esta funcionando la prueba")}
