@@ -366,6 +366,147 @@ div .container-form-botones input{
     border-radius: 5%;
 }
 
+/* AGREGADO SECTION REGISTRO API */
+.registrosAPI{
+    background-color: aliceblue;
+    height: 800px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo_registro{
+    width: 60%;
+    height: 100px;
+    background-color: #fcf7fb;
+    border-color: rgb(121, 6, 92);
+    border-width: 2px;
+    border-style:double;
+    border-radius: 10px;
+    justify-items: center;
+}
+
+.titulo_registro p{
+    color: #440714;
+    font-size: medium;
+    font-style: italic;
+}
+
+.titulo_registro h2{
+    color: rgb(121, 6, 92);
+}
+
+.containerApi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1%;
+    border-color: rgb(121, 6, 92);
+}
+
+.item_1_grid1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: rgb(121, 6, 92) 1px solid; borde y color del registro*/
+    align-items: center;
+    background-color:#fcf7fb;
+    width: 552px;
+    height: 324px;
+}
+
+    .item_1_grid1 h3{
+        color: rgb(121, 6, 92);
+        font-size: xx-large;
+        padding: 1%;
+    }
+
+.container-form1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:auto 1fr;
+}
+
+.container-form-etiquetas1{
+    display: flex;
+    flex-direction: column;    
+}
+    .container-form-etiquetas1 label{
+    width: 80%;
+    color: #1d0117;
+    font-size: small;
+    font-weight: lighter;
+    }
+
+    .container-form-etiquetas1 input{
+    width: 60%;
+    height: 30px;
+    border: #0f000c 1px solid;
+    border-radius: 5px;
+    }
+
+.container-form-condiciones1{
+    background-color:rgb(121, 6, 92);
+    border-radius: 3%;
+    color: aliceblue;
+    font-size: small;
+    align-content: center;
+    padding: 5%;
+    margin: 10%;
+    margin-left: 0%;
+}
+
+div .container-form-botones1{
+    display: inline-block;
+}
+
+    div .container-form-botones1 button{
+        width: 120px;
+        height: 35px;
+        margin: 2%;
+        border-radius: 5%;
+    }
+
+
+.item_2_grid2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: #440714 1px solid;
+   
+}
+
+.divCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #0f000c;
+}
+    .divCard h5{
+        color: rgb(121, 6, 92);
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .divCard ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #0f000c;
+    }
+
+    .divCard a {
+        margin: auto;
+        font-size: small;
+    }
+    .divCard ul li{
+        margin: 15px;
+        color: #0f000c;
+        font-size: small;
+    }
+/* FIN SECTION REGISTRO API */
+
 .footer{
     background-color: #fcf7fb;
     display: flex;
@@ -373,14 +514,14 @@ div .container-form-botones input{
     justify-content: space-around;
 }
 
-.footer-div p{
-    font-size: small;
-}
-
 .footer-div{
     display: flex;
     justify-content: space-around;
 }
+
+    .footer-div p{
+        font-size: small;
+    }
 
 
 @media (max-width: 768px) {
