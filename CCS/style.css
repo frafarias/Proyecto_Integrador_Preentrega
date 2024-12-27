@@ -50,7 +50,7 @@ main p {
 font-size: 40px;
 font-style: italic;
 color:#fcf7fb;
-margin-top: 250px;
+margin-top: 350px;
 margin-left: 150px;
 position: absolute;
 border-color: #170744;
@@ -61,6 +61,22 @@ section{
     width: 100%;
     height: 600px;
 }
+
+/* AGREAGADO PARA CAMBIAR NAV DE BOOSTRAP */
+
+#navInicio{
+    padding: 0%;
+}
+
+#navInicio a{
+    color: aliceblue;
+}
+
+.container-fluid{
+    background-color: rgb(121, 6, 92);
+    }
+
+/* CIERRE DE CAMBIOS NAV BOOSTRAP */
 
 #Inicio{
     display: flex;
